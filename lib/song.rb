@@ -39,7 +39,7 @@ class Song
     @artist
   end
 
-  def genres
+  def genre
     @genre
   end
 
