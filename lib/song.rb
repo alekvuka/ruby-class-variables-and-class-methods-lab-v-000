@@ -42,8 +42,27 @@ class Song
 
   def self.genres
     unique_genre_array = @@genres.uniq
-
   end
+
+  def genre_count 
+    genre_count = Hash.new
+    
+    @@genre.each do |genre| 
+        if genre_count.has_value?(genre) == false
+          genre_count[genre] => @@genre.count(genre)
+        end 
+      end 
+
+      genre_count[genre]
+
+  end  
+    
+
+
+  end 
+
+
+  
 
   def artist
     @artist
