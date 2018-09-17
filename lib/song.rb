@@ -22,16 +22,17 @@ class Song
   def self.artists
     unique_artist_array = Array.new
 
-    
-    
+
+=begin
     @@artists.each do |artist|
       #binding.pry
-      if unique_artist_array.include?(artist) == false 
+      if unique_artist_array.include?(artist) == false
         unique_artist_array.push(artist)
       end         
     end
+=end 
 
-    unique_artist_array
+    unique_artist_array = @@artists.uniq
 
   end
 
