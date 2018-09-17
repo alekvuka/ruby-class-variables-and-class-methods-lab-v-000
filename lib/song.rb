@@ -1,5 +1,5 @@
 
-binding.pry
+require 'pry'
 
 class Song
 
@@ -26,6 +26,7 @@ class Song
     @@artists.each do |artist|
       if @@artists.count(artist) == 0
         unique_artist_array.push(artist)
+        binding.pry
       end
     end
     unique_artist_array
