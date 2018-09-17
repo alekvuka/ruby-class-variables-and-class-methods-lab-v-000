@@ -20,7 +20,7 @@ class Song
   end
 
   def self.artists
-    unique_artist_array = Array.new
+    #unique_artist_array = Array.new
 
 
 =begin
@@ -42,7 +42,7 @@ class Song
 
   def self.genres
     unique_genre_array = @@genres.uniq
-    
+
   end
 
   def artist
