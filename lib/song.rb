@@ -21,7 +21,7 @@ class Song
 
 
     @@artists.each do |artist|
-      if @@artists.count(artist) == 0
+      if @@artists.count(artist) == nil
         unique_artist_array.push(artist)
       end
     end
