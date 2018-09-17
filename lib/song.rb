@@ -20,7 +20,7 @@ class Song
   def self.artists
     uniqu_artist_array = Array.new
     @@artists.each do |artist|
-      if @@artists.incude?(artist) == false
+      if @@artists.include?(artist) == false
         @@artists.push(artist)
       end
     end
