@@ -12,9 +12,9 @@ class Song
 
     @@count += 1
 
-    if @@artists.include?(artist) == false
+    # @@artists.include?(artist) == false
       @@artists.push(artist)
-    end
+    #end
 
     if @@genres.include?(genre) == false
       @@genres.push(genre)
