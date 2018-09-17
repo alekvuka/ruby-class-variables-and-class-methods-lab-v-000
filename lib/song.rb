@@ -16,9 +16,9 @@ class Song
       @@artists.push(@artist)
     ##end
 
-    if @@genres.include?(@genre) == false
+    ##if @@genres.include?(@genre) == false
       @@genres.push(@genre)
-    end
+    ##end
 
   end
 
