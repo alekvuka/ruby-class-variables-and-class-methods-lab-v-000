@@ -22,7 +22,6 @@ class Song
   def self.artists
     unique_artist_array = Array.new
 
-
     @@artists.each do |artist|
       #binding.pry
       if @@artists.include?(artist) == false
@@ -30,7 +29,9 @@ class Song
         #binding.pry
       end
     end
-    unique_artist_array
+    
+    #unique_artist_array
+    
   end
 
   def self.count
