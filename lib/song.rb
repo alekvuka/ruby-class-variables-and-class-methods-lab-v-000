@@ -24,6 +24,7 @@ class Song
 
 
     @@artists.each do |artist|
+      binding.pry
       if @@artists.count(artist) == 0
         unique_artist_array.push(artist)
         binding.pry
