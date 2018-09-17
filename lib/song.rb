@@ -1,7 +1,7 @@
 class Song
 
   @@number_of_songs = 0
-  @@genres = Array.new 
+  @@genres = Array.new
   @@artists = Array.new
 
 
@@ -12,26 +12,26 @@ class Song
 
     @@number_of_songs += 1
 
-    if @@artists.include?(name) == false 
+    if @@artists.include?(name) == false
       @@artists.push(name)
-    end  
+    end
 
-    if @@genres.include?(genre) == false 
+    if @@genres.include?(genre) == false
       @@genres.push(genre)
-    end 
-      
+    end
+
   end
 
 
-  def self.artists 
-    @@artists 
+  def self.artists
+    @@artists
   end
 
   def self.count
     @@number_of_songs
-  end 
+  end
 
-  def self.genres 
+  def self.genres
     @@genres
   end 
 
@@ -44,5 +44,4 @@ class Song
   end
 
 
-end 
-  
+end
