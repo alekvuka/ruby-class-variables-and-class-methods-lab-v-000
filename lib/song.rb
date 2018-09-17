@@ -18,12 +18,14 @@ class Song
 
   def self.artists
     unique_artist_array = Array.new
+
     @@artists.each do |artist|
       if @@artists.include?(artist) == false
         unique_artist_array.push(artist)
       end
     end
-    unique_artist_array
+
+#    unique_artist_array
   end
 
   def self.count
