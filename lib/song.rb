@@ -13,17 +13,17 @@ class Song
     @@count += 1
     @@artists.push(@artist)
     @@genres.push(@genre)
-  
+
   end
 
 
   def self.artists
     uniqu_artist_array = Array.new
     @@artists.each do |artist|
-      if @@artist.incude?(artist) == false 
+      if @@artist.incude?(artist) == false
         @@artist.push(artist)
-      end 
-    end 
+      end
+    end
     uniqu_artist_array
       
   end
