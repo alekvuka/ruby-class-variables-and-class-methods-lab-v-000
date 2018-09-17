@@ -50,6 +50,7 @@ class Song
     @@genres.each do |genre|
         if genre_count.has_value?(genre) == false
           genre_count[genre] = @@genres.count(genre)
+          binding.pry
         end
       end
 
