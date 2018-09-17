@@ -1,6 +1,6 @@
 class Song
 
-  @@number_of_songs = 0
+  @@count = 0
   @@genres = Array.new
   @@artists = Array.new
 
