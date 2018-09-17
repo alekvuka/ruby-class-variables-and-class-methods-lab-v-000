@@ -30,7 +30,7 @@ class Song
       end
     end
 
-    #unique_artist_array
+    unique_artist_array
 
   end
 
