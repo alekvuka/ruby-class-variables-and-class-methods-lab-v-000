@@ -33,7 +33,7 @@ class Song
 
   def self.genres
     @@genres
-  end 
+  end
 
   def artist
     @artist
