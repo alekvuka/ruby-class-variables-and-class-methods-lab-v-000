@@ -21,7 +21,7 @@ class Song
     unique_artist_array = Array.new
     @@artists.each do |artist|
       if @@artists.include?(artist) == false
-        unique_artist_array(artist)
+        unique_artist_array.push(artist)
       end
     end
     unique_artist_array
