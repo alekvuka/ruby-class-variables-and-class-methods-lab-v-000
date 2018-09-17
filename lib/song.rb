@@ -43,5 +43,9 @@ class Song
     @genre
   end
 
+  def name 
+    @name 
+  end 
+
 
 end
