@@ -44,7 +44,7 @@ class Song
     unique_genre_array = @@genres.uniq
   end
 
-  def genre_count
+  def self.genre_count
     genre_count = Hash.new
 
     @@genre.each do |genre|
@@ -53,7 +53,7 @@ class Song
         end
       end
 
-      genre_count[genre]
+      genre_count
 
   end
 
