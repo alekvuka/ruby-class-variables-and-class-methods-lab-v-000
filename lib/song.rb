@@ -25,7 +25,6 @@ class Song
       end
     end
     unique_artist_array
-
   end
 
   def self.count
