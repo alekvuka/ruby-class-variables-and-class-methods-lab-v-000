@@ -12,12 +12,12 @@ class Song
 
     @@count += 1
 
-     @@artists.include?(artist) == false
-      @@artists.push(artist)
+    if @@artists.include?(@artist) == false
+      @@artists.push(@artist)
     end
 
-    if @@genres.include?(genre) == false
-      @@genres.push(genre)
+    if @@genres.include?(@genre) == false
+      @@genres.push(@genre)
     end
 
   end
