@@ -48,7 +48,7 @@ class Song
     genre_count = Hash.new
 
     @@genres.each do |genre|
-        if genre_count.has_value?(genre) == false
+        if genre_count.has_key?(genre) == false
           genre_count[genre] = @@genres.count(genre)
           binding.pry
         end
