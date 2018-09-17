@@ -26,7 +26,7 @@ class Song
       #binding.pry
       if @@artists.include?(artist) == false
         unique_artist_array.push(artist)
-        #binding.pry
+        binding.pry
       end
     end
 
