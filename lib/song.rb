@@ -25,7 +25,6 @@ class Song
         unique_artist_array.push(artist)
       end
     end
-
     unique_artist_array
   end
 
