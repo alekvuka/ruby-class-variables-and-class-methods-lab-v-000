@@ -11,11 +11,10 @@ class Song
     @genre = genre
 
     @@count += 1
-    @@artists.push(@artist)
-    @@genres.push(@genre)
+    @@artists.push(artist)
+    @@genres.push(genre)
 
   end
-
 
   def self.artists
     unique_artist_array = Array.new
